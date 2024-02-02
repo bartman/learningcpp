@@ -11,5 +11,7 @@ int main(const int argc, const char *const *const argv)
 
     s.show();
 
+    struct nested nested = {};
+
     return 0;
 }
