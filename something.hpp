@@ -9,6 +9,9 @@ public:
     }
     ~Something() {}
 
+
+    void show() {}
+
 protected:
     int m_a{ 0 };
 };
