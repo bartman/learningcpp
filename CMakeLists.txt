@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.5.1)
-project(cppmain)
+cmake_minimum_required(VERSION 3.13)
+project(learningcpp)
 
 set(CMAKE_CXX_STANDARD 20 REQUIRED)
 set(CMAKE_BUILD_TYPE Debug)
