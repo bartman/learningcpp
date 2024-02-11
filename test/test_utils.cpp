@@ -7,9 +7,3 @@ TEST(utils, foo) {
     utils::foo();
 
 }
-
-TEST(utils, bar) {
-
-    EXPECT_EQ(1,1);
-
-}
