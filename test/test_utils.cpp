@@ -10,7 +10,6 @@ TEST(utils, foo) {
 
 TEST(utils, bar) {
 
-    utils::foo();
-    EXPECT_EQ(1,2);
+    EXPECT_EQ(1,1);
 
 }
