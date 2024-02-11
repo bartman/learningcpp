@@ -5,7 +5,7 @@ build/all: build/Makefile
 	cmake --build build
 
 build/Makefile: build CMakeLists.txt
-	cmake -S. -Bbuild -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -DCMAKE_BUILD_TYPE=Debug
+	cmake -S. -Bbuild -GNinja -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -DCMAKE_BUILD_TYPE=Debug
 
 build:
 	mkdir -p build

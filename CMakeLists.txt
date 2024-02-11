@@ -3,7 +3,8 @@ project(cppmain)
 
 set(CMAKE_CXX_STANDARD 20 REQUIRED)
 set(CMAKE_BUILD_TYPE Debug)
-set(CMAKE_VERBOSE_MAKEFILE ON)
+set(CMAKE_VERBOSE_MAKEFILE OFF)
 set(CMAKE_EXPORT_COMPILE_COMMANDS YES)
 
-add_executable(cppmain main.cpp )
+add_subdirectory(src)
+add_subdirectory(test)
