@@ -15,3 +15,4 @@ clean:
 
 distclean:
 	rm -rf build
+	git ls-files -z --others | xargs -0 rm
