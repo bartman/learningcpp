@@ -1,0 +1,11 @@
+{
+    "name": "Learning CPP",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-20.04",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools"
+            ]
+        }
+    }
+}
