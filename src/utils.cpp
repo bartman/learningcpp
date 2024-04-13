@@ -10,4 +10,9 @@ void foo()
     cout << "foo\n";
 }
 
+int bar(int a, int b, int c)
+{
+    return a + b + c;
+}
+
 };

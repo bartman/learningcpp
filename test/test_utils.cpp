@@ -2,14 +2,12 @@
 
 #include "utils.hpp"
 
-TEST(utils, foo) {
-
+TEST(utils, foo)
+{
     utils::foo();
-
 }
 
-TEST(utils, bar) {
-
-    EXPECT_EQ(1,1);
-
+TEST(utils, bar)
+{
+    EXPECT_EQ(1, 1);
 }
