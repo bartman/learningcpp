@@ -9,5 +9,5 @@ TEST(utils, foo)
 
 TEST(utils, bar)
 {
-    EXPECT_EQ(1, 1);
+    EXPECT_EQ(utils::bar(1,2,3), 6);
 }
