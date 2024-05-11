@@ -3,6 +3,7 @@ all: build/all
 
 build/all: build/build.ninja
 	cmake --build build
+	ln -fs build/compile_commands.json
 
 build/build.ninja: build CMakeLists.txt
 	cmake -S. -Bbuild -GNinja -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -DCMAKE_BUILD_TYPE=Debug
